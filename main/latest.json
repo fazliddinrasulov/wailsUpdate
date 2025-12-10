@@ -1,0 +1,6 @@
+{
+  "version": "2.1.0",
+  "url": "https://github.com/fazliddinrasulov/wailsUpdate/releases/bookly.exe",
+  "release_date": "2025-12-10",
+  "changelog": "What's New in v1.1.0:\n- Added auto-updater feature\n- Fixed silent printing on Windows\n- Improved UI performance"
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "version": "v1.0.0",
+  "name": "myweilsproject",
+  "outputfilename": "myweilsproject",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "Fazliddin Rasulov",
+    "email": "62127292+fazliddinrasulov@users.noreply.github.com"
+  }
+}
