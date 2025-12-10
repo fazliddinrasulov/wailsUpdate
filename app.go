@@ -80,7 +80,7 @@ func (a *App) CheckUpdate(currentVersion string) (*UpdateInfo, error) {
 		Timeout: 10 * time.Second,
 	}
 
-	resp, err := client.Get("https://raw.githubusercontent.com/fazliddinrasulov/wailsUpdate/main/latest.json")
+	resp, err := client.Get("https://raw.githubusercontent.com/fazliddinrasulov/wailsUpdate/main/main/latest.json")
 	if err != nil {
 		return nil, fmt.Errorf("failed to fetch update info: %w", err)
 	}
