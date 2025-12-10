@@ -3,6 +3,7 @@ package main
 import (
 	"context"
 	"embed"
+	"time"
 
 	"github.com/wailsapp/wails/v2"
 	"github.com/wailsapp/wails/v2/pkg/options"
@@ -13,7 +14,7 @@ var assets embed.FS
 
 func main() {
 	app := NewApp()
-	updater := NewUpdater("yourusername/your-repo") // CHANGE THIS
+	updater := NewUpdater("fazliddinrasulov/wailsUpdate")
 
 	err := wails.Run(&options.App{
 		Title:  "Your App",
